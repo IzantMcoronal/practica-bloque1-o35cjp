@@ -109,6 +109,8 @@ for (i = 0; i < colorList.length; i++){
   li.insertAdjacentElement("beforeend",button1);
   li.insertAdjacentElement("beforeend",div2);
   li.insertAdjacentElement("beforeend",button2);
+
+  list.insertAdjacentElement("beforeend",li);
 }
 
 
