@@ -68,6 +68,13 @@ for (i = 0; i < colorList.length; i++){
   let name = colorList[i].colorName;
   let color = colorList[i].hex;
 
+  let li = document.createElement("li");
+
+  if( i % 2 == 1){
+
+    li.classList.add("color-item--odd")
+
+  }
   
 }
 
