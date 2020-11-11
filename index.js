@@ -61,6 +61,13 @@ const colorList = [
   }
 ];
  
+
+
+
+
+
+
+ 
  // Le añadimos un evento al body con una funcion que lanza una alerta y le ponemos el mensaje de "Body"
 document.body.addEventListener("click", function (){
   alert("Body");
