@@ -72,9 +72,32 @@ for (i = 0; i < colorList.length; i++){
 
   if( i % 2 == 1){
 
-    li.classList.add("color-item--odd")
+    li.classList.add("color-item--odd");
 
+  } else{
+    li.classList.add("color-item");
   }
+  
+  li.classList.add("color-item");
+
+  li.addEventListener( "click", e => function (){
+    alert(name);
+    e.stopPropagation();
+  });
+
+  let div1 = document.createElement("div");
+  div1.classList.add("color-name");
+  div1.textContent = "color " + name;
+
+  let div2 = document.createElement("div");
+  div2.classList.add("color-show");
+  div2.textContent = "Muestra";
+  div2.style.backgroundColor = color;
+
+  let button1 = document.createElement("button");
+  button1.classList.add("color-set");
+  button1.textContent = "Next item color";
+
   
 }
 
