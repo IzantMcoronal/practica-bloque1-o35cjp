@@ -186,7 +186,7 @@ for (i = 0; i < colorList.length; i++){
   //Creamos la variable li de los hijos de la variable list
   let li = list.children;
 
-  //Le añadimos la funcionalidad para que al hacer clicar sobre el boton le cambie el color a al siguiente fila por su color.
+  //Le añadimos la funcionalidad para que al hacer clickar sobre el boton le cambie el color a al siguiente fila por su color.
   button[y].addEventListener("click", a => {
   li[x].style.backgroundColor = color;
 
