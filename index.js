@@ -60,14 +60,24 @@ const colorList = [
     hex: '#c0c0c0'
   }
 ];
- 
+
+var list = document.querySelector(".color-list");
+
+for (i = 0; i < colorList.length; i++){
+
+  let name = colorList[i].colorName;
+  let color = colorList[i].hex;
+
+  
+}
 
 
 
 
 
 
- 
+
+
  // Le añadimos un evento al body con una funcion que lanza una alerta y le ponemos el mensaje de "Body"
 document.body.addEventListener("click", function (){
   alert("Body");
