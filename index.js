@@ -60,3 +60,4 @@ const colorList = [
     hex: '#c0c0c0'
   }
 ];
+ 
