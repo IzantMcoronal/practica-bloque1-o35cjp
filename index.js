@@ -98,7 +98,17 @@ for (i = 0; i < colorList.length; i++){
   button1.classList.add("color-set");
   button1.textContent = "Next item color";
 
-  
+  let button2 = document.createElement("button");
+  button2.classList.add("color-set");
+  button2.textContent = "Page color";
+  button2.addEventListener("click", function() {
+  document.body.style.backgroundColor = color;
+  });
+
+  li.insertAdjacentElement("beforeend",div1);
+  li.insertAdjacentElement("beforeend",button1);
+  li.insertAdjacentElement("beforeend",div2);
+  li.insertAdjacentElement("beforeend",button2);
 }
 
 
