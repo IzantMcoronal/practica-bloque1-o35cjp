@@ -80,7 +80,7 @@ for (i = 0; i < colorList.length; i++){
   //Primero le agregamos la clase ("color-item") a todos los li
   li.classList.add("color-item");
   
-  //Con esta condicion le decimos que le ponga esta clase ("color-item--odd") solo a los pares. 
+  //Con esta condicion le decimos que le ponga esta clase ("color-item--odd") solo a los pares. Nota: la array empieza en el numero 0 por eso los impares son pares.
   if( i % 2 == 1){
     
     //Clase que se le añade a los li
